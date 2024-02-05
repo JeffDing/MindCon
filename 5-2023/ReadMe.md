@@ -2,7 +2,9 @@
 
 ![pic/2023.png](pic/2023.png)
 
-## 任务一 【第五届MindCon极客周】任务一：“孢”显热爱
+## 个人赛
+
+### 任务一 【第五届MindCon极客周】任务一：“孢”显热爱
 
 链接地址:[https://gitee.com/mindspore/community/issues/I8NMN2](https://gitee.com/mindspore/community/issues/I8NMN2)
 
@@ -31,7 +33,7 @@
 课程上学到的知识对你的学习、科研和实践活动有哪些帮助。基于课程学到的知识，你对人工智能和大模型的发展和应用有哪些展望。
 
 
-## 【第五届MindCon极客周】任务二：“孢”显创新 
+### 【第五届MindCon极客周】任务二：“孢”显创新 
 链接地址：[https://gitee.com/mindspore/community/issues/I8NLBZ](https://gitee.com/mindspore/community/issues/I8NLBZ)
 
 一、任务说明：
@@ -46,15 +48,17 @@ MindSpore2.0版本全新升级，在编程范式方面全面支持函数式+面�
 对于给定的应用案例，如果有多个网络规格的，选择最小的即可；如果有多个数据集，任选一个即可；代码需要通过开源仓库门禁审查，需要保证精度和性能不劣化；
 本次任务开发分支为r2.0：[https://github.com/mindspore-courses/applications/tree/r2.0](https://github.com/mindspore-courses/applications/tree/r2.0)
 
-## 【第五届MindCon极客周】任务三：“孢”显智慧
+### 【第五届MindCon极客周】任务三：“孢”显智慧
 
 链接地址：[https://gitee.com/mindspore/community/issues/I8NMRT](https://gitee.com/mindspore/community/issues/I8NMRT)
 
-## 【第五届MindCon极客周】任务四：“孢”显能力
+### 【第五届MindCon极客周】任务四：“孢”显能力
 链接地址：[https://gitee.com/mindspore/community/issues/I8P657](https://gitee.com/mindspore/community/issues/I8P657)
 
 
-## AIGC图像对战现实-AI生成图像与真实图像二分类挑战赛
+
+
+## 团体赛：AIGC图像对战现实-AI生成图像与真实图像二分类挑战赛
 
 ### 大赛介绍
 
@@ -63,6 +67,19 @@ MindSpore2.0版本全新升级，在编程范式方面全面支持函数式+面�
 “AIGC图像对战现实-AI生成图像与真实图像二分类挑战赛”于2023年12月正式开启，面向全球AI开发者，赛题任务为训练一个AI生成图像辨别器，旨在帮助人们更好地理解和应对AI生成图像可能带来的挑战和影响，同时为开发者提供一个学习MindSpore和AI的机会。
 
 当今AI运用在图像方面较为广泛，有时需要对图像是否是AI生成进行辨别。本赛题旨在让参赛者熟悉MindSpore并锻炼参赛者使用MindSpore进行图像分类预处理、训练、预测的能力，从而判断图像是否由AI生成。
+
+### 数据集
+比赛不提供训练数据集
+
+比赛使用的测试数据集结构分布如下，0代表真实图像标签，1代表AI生成图像标签：
+
+```
+├── test # 测试集文件夹
+│     ├─── 0.jpg
+│     ├─── ...
+│     ├─── 1.jpg
+│
+```
 
 ### 辅助教程
 
